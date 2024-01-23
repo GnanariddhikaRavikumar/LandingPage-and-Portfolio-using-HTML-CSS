@@ -1,0 +1,153 @@
+.header {
+    display: flex;
+    background-color: #2d774ce6;
+    color: whitesmoke;
+    width: 700px;
+    height: 500px;
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+    float:left;
+    margin-top:50px;
+}
+
+.text > p {
+    margin-top: 10px; 
+    margin-left: 18px;
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 30px;
+}
+
+.header > p {
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.choice {
+    display: flex;
+    margin-left:600px
+}
+
+.choice > img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.choice > img:hover {
+    cursor: pointer;
+}
+
+.text > img {
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.text > img:hover {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: scale(0.9);
+}
+
+.intro {
+    background-color: #189fa6;
+    height: 500px;
+    width: 1025px;
+    float: right;
+    margin-left:200px;
+}
+
+.intro > p {
+    margin: 25px;
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+    color: whitesmoke;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(40) 1;
+}
+.about{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+}
+.about>h1{
+    color:#189fa6;
+}
+.about>h3{
+    color:#2d774ce6; 
+}
+.skillset{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+}
+.skillset>h3{
+    color:#2d774ce6;
+}
+.skillset>h1{
+    color:#189fa6;
+}
+.project{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+}
+
+.project>h3{
+    color:#2d774ce6;
+}
+.project>h1{
+    color:#189fa6;
+}
+.resume{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+}
+
+.resume>h3{
+    color:#2d774ce6;
+}
+.resume>h1{
+    color:#189fa6;
+}
+.resume>button{
+    margin-left: 300px;
+    background-color: #18afdde6;
+    border:1px transparent;
+    border-radius:25px;
+    height:60px;
+    width:150px;
+    font-style: bold;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+}
+.contact{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+}
+.contact>h1{
+    color:#189fa6;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
