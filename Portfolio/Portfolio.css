@@ -3,7 +3,7 @@
     background-color: #2d774ce6;
     color: whitesmoke;
     width: 700px;
-    height: 500px;
+    height: 600px;
 }
 
 .text {
@@ -36,7 +36,7 @@
     margin-left:600px
 }
 
-.choice > img {
+.choice > a>img{
     margin-top: 20px;
     margin-left: 10px;
     height: 50px;
@@ -62,7 +62,7 @@
 
 .intro {
     background-color: #189fa6;
-    height: 500px;
+    height: 600px;
     width: 1025px;
     float: right;
     margin-left:200px;
@@ -86,8 +86,8 @@
 .about>h1{
     color:#189fa6;
 }
-.about>h3{
-    color:#2d774ce6; 
+.about>img{
+    padding-left:150px; 
 }
 .skillset{
     font-style: normal;
@@ -100,12 +100,56 @@
 .skillset>h1{
     color:#189fa6;
 }
+.skillimage
+{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding:15px;
+}
+.toolimages
+{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+.skillimage>img
+{
+    padding:15px;
+}
+.toolimages>img
+{
+    padding:15px;
+}
 .project{
     font-style: normal;
     font-family:'Gill Sans MT';
     font-size: 20px;
 }
-
+.platform{
+    display: flex;
+}
+.platform>img
+{
+    padding: 15px;
+}
+.platform>a>img{
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+}
+.platform>a
+{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 20px;   
+}
+.platform>p
+{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    font-size: 20px;
+}
 .project>h3{
     color:#2d774ce6;
 }
@@ -140,8 +184,23 @@
     font-family:'Gill Sans MT';
     font-size: 20px;
 }
+.contact >p>a{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    color: rgb(8, 103, 141);
+}
 .contact>h1{
     color:#189fa6;
+}
+.contact>p{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    color: rgb(8, 103, 141);
+}
+.contact>h4{
+    font-style: normal;
+    font-family:'Gill Sans MT';
+    color: rgb(0, 0, 0);
 }
 @keyframes typing {
     from {
