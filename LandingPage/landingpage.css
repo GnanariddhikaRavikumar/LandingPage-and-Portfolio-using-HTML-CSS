@@ -1,0 +1,200 @@
+.header { 
+    font-family:'Trebuchet MS';
+    color:rgb(241, 10, 153);
+    height:150px;
+    width:1528px;
+    background-color: rgb(196, 233, 34);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+.body{
+    margin:0
+}
+.header>p
+{
+    font-style:italic;
+    font-family:'Trebuchet MS';
+}
+
+.header>h1
+{
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+}
+.header > img {
+    margin-left:5px;
+    border-radius: 25px;
+    height: 120px;
+    width: 180px;
+}
+
+.options {
+    display: flex;
+    align-items: flex-end;
+}
+
+.options > p >a{
+    margin:10px;
+    color: rgb(241, 10, 153);
+}
+.options > button {
+    font-weight:bold;
+    background-color: rgb(241, 10, 153);
+    height: 50px;
+    width: 120px;
+    border: transparent;
+    border-radius: 25px;
+    margin-right: 10px;
+    
+}
+.bodycont > img {
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    margin: 20px;
+    transition: transform 0.5s ease; 
+}
+
+.bodycont > img:hover {
+    cursor: pointer;
+    transform: scaleX(-1); 
+}
+
+.bodycont{
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.body>h1{
+    font-family:'Lucida Sans Unicode';
+    color:rgb(241, 10, 153);
+    font-weight:bold;
+}
+.about{
+    flex-wrap: wrap;
+}
+.about>h2{
+    align-items: center;
+    font-family: 'Lucida Sans Unicode';
+    color:rgb(241, 10, 153);
+}
+.about>h1
+{
+    font-family:'Lucida Sans Unicode';
+    color:rgb(250, 164, 59)
+}
+
+.about>ul>li{
+    font-family: 'Lucida Sans Unicode';
+    color:rgb(49, 63, 100);
+    font-weight: bold;
+}
+.contact>p
+{
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    color:rgb(250, 164, 59);
+}
+.contact{
+    align-items: center;
+}
+.contact>h1{
+    font-family: 'Lucida Sans Unicode';
+    color:rgb(241, 10, 153);
+}
+.footer
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color:rgb(217, 244, 98) ;
+    height:150px;
+    width:1528px;
+    font-family:'Lucida Sans Unicode';
+    color:rgb(241, 10, 153);
+}
+.footer>p{
+    margin:20px;
+}
+.footer>img{
+    margin-left:5px;
+    border-radius: 25px;
+    height: 120px;
+    width: 180px;
+}
+.poster{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+.poster>img{
+    height:500px;
+    width:750px;
+}
+.text{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    font-weight: bold;
+    font-family:'Lucida Sans Unicode';
+    color:brown;
+   
+}
+.about>button{
+    margin-left: 200px;
+    background-color:rgb(241, 10, 153) ;
+    font-weight: bold;
+    font-family:'Lucida Sans Unicode';
+    border:transparent;
+    border-radius: 25px;
+    height:70px;
+    width:150px;
+}
+.about>h5{
+    margin-left: 5px;
+    font-family: 'Lucida Sans Unicode';
+    color:rgb(49, 63, 100);
+    font-weight: bold;
+    font-size:15px;
+}
+.form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-family: 'Lucida Sans Unicode';
+}
+
+form {
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+form > input,
+form > textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form > button {
+    background-color: rgb(250, 164, 59);
+    font-weight: bold;
+    font-family: 'Lucida Sans Unicode';
+    border: transparent;
+    border-radius: 25px;
+    height: 60px;
+    width: 150px;
+    margin-bottom:10px;
+}
+.form>h1{
+    color: rgb(250, 164, 59);
+    font-weight: bold;
+    font-family: 'Lucida Sans Unicode';   
+}
